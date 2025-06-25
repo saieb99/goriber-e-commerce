@@ -280,17 +280,22 @@ footer p{
     text-align: center;
     color: #fff;
 }
-
 /*mobile view*/
-@media (max-width:768px){
-    section .main .searchbox .search{
-        width: 78%;
-    }
-    section .main .searchbox .icons{
-        width: 84%;
-    }
-    section .footer .row ul{
-        display: block;
-    }
+@media  (max-width:600px){
+     .section1 img {
+    height: 100px;
+}
+.section1button h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 60px;
+    font-size: 1rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    letter-spacing: 3px;
+    color: #3D3D4A;
+    text-transform: uppercase;
+}
 
 }
+
